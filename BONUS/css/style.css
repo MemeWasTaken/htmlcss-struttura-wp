@@ -1,0 +1,87 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 4em auto;
+    background-color: white;
+    border-radius: 0.7em;
+    padding-bottom: 3em;
+    box-shadow: 0 0 10px #C4C4C4;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* /General */
+
+
+/* Navigation Section */
+nav{
+    padding-top: 0.8em;
+    padding-left: 0.8em;
+}
+
+nav div{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 100px;
+    margin-bottom: 2em;
+}
+.close{background-color: #CC0000;}
+.resize{background-color: #FFE599;}
+.full{background-color: #00DE6B;}
+/* /Navigation Section */
+
+/* Header & Footer */
+.top, .bottom{
+    background-color: #9A9AF6;
+    margin: 0 auto;
+    width: 80%;
+    height: 5.2em;
+}
+
+.bottom{
+    height: 3.2em;
+    /* margin-bottom: 3em; */
+}
+/* /Header & Footer */
+
+/* Column Layout */
+main{
+    width: 80%;
+    margin: 0.9em auto;
+}
+
+main div{
+    float: left;
+    width: 25%;
+    height: 20px;
+    background-color: #3535EC;
+}
+
+main div:first-child,
+main div:last-child{
+    width: calc(25% - 0.9em);
+    height: 22em;
+}
+
+main div:nth-child(2){
+    margin: 0 0.9em;
+    width: calc(50%);
+    background-color: #F71668;
+    height: 34em;
+
+}  
+/* /Column Layout */

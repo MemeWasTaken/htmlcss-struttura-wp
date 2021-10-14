@@ -1,0 +1,7 @@
+Exercise: Riproduzione Tema Wordpress
+repository: htmlcss-struttura-wp
+
+Riproduzione di un vero sito: un tema di Wordpress.
+Partiamo dal realizzare la struttura base del nostro tema solo con i blocchi colorati.
+Layout allegato.
+Partiamo sempre dall’individuare il layout generale e poi iniziamo dall’alto verso il basso, non passiamo ad una sezione successiva se la precedente non funziona.

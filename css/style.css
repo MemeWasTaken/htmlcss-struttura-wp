@@ -8,6 +8,12 @@ html{
     font-size: 1em;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* Header Section */
 header{
     background-color: #E579E6;
@@ -30,12 +36,38 @@ header{
 
 /* Main Section */
 main{
-    background-color: #ABCFE7;
+    background-color: #0086FF;
     width: 80%;
-    height: 12em;
+    height: 15em;
     margin: auto;
     margin-top: 0.6em;
 }
+
+nav{
+    background-color: #ABCFE7;
+    height: 1.5em;
+    width: 100%;
+    margin-bottom: 0.6em;
+}
+
+.column{
+    background-color: #ABCFE7;
+    float: left;
+    width: 25%;
+    height: calc(15em - 2.7em);
+    margin-bottom: 0.6em;
+}
+
+.l-column{
+    width: 25%;
+    margin-right: 0.6em;
+}
+
+.c-column{
+    width: calc(50% - 1.2em);
+    margin-right: 0.6em;
+}
+
 /* /Main Section */
 
 /* Footer Section */
@@ -44,6 +76,6 @@ footer{
     width: 80%;
     height: 1.3em;
     margin: auto;
-    margin-top: 0.3em;
+    margin-top: 0.4em;
 }
 /* /Footer Section */
