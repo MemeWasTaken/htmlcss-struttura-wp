@@ -19,7 +19,7 @@ header{
     background-color: #E579E6;
     width: 80%;
     height: 3em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.46em;
 }
 /* /Header Section */
@@ -29,7 +29,7 @@ header{
     background-color: #E1D67A;
     width: 80%;
     height: 10em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.6em;
 }
 /* /Jumbotron Box */
@@ -39,7 +39,7 @@ main{
     background-color: #0086FF;
     width: 80%;
     height: 15em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.6em;
 }
 
@@ -75,7 +75,7 @@ footer{
     background-color: #8801FE;
     width: 80%;
     height: 1.3em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.4em;
 }
 /* /Footer Section */
